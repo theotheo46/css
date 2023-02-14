@@ -25,6 +25,17 @@ Divs внутри контейнера .flex-container-2  прижимаются
 
 
 ### index3
-Для установки и запуска проекта, необходим [NodeJS](https://nodejs.org/) v18.14.0
+Выравнивание двух элементов в колонке - flex-direction: column; main-axis top->bottom
+```
+Divs внутри контейнера .flex-container-2  прижимаются к top и bottom краям
+  justify-content: space-between;
+  align-items применяется к cross axis (в данном случае это продольная ось) и принимает значения
+   - center - вравнивание по центру
+   - flex-start - прижим к левому краю
+   - flex-end - прижим к правому краю  
+   - stretch - меньший элемент растягивается по горизонтали до размеров большего
+```
+
+
 
 
