@@ -9,25 +9,18 @@
 
 
 ### index1
-Выравнивание двух элементов в ряду по левому и правому краям контейнера
+Выравнивание двух элементов в ряду - flex-direction: row; main-axis left->right
+```
+  justify-content: space-between;  выравнивание по левому и правому краям  двух элементов 1111 и 22
+  justify-content: space-around;  распределение элементов div с одинаковыми расстояниями между ними и левым и правым краями
+  justify-content: left/right;    прижать к левому/правому краю
+```
 
 ### index2
-Сборка проекта осуществляется в VSCode с помощью скриптов
-
-Сборка и запуск в DEV среде с помощью parcel
+Выравнивание двух элементов в колонке - flex-direction: column; main-axis top->bottom
 ```
-parcel
-```
-
-Сборка и запуск express server
-```
-npm run build && node src/server/server.js
-```
-
-В этом случае в консоль выводятся порт и значение текущей директории
-```
-__dirname: /home/theo/js/webmessenger/src/server!
-Мой текст и порт: 3000!
+Divs внутри контейнера .flex-container-2  прижимаются к top и bottom краям
+  justify-content: space-between;
 ```
 
 
